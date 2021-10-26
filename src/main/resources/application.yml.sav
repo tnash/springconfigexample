@@ -1,0 +1,32 @@
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.mkyong: DEBUG
+email: test@mkyong.com
+thread-pool: 10
+app:
+  frame: test
+  menus:
+    - title: Home
+      name: Home
+      path: /
+    - title: Login
+      name: Login
+      path: /login
+  compiler:
+    timeout: 5
+    output-folder: /temp/
+  error: /error/
+
+pbteach:
+  name: Main station
+  url: www.test.com
+  urls:
+    - www.test.com
+    - test.com
+    - img.test.com
+  servers:
+    - name: Main station
+      url: www.test.com
+    - name: Main station image
+      url: img.test.com

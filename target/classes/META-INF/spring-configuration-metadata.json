@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.clover.appconfig.configuration.AppProperties",
+      "sourceType": "com.clover.appconfig.configuration.AppProperties"
+    },
+    {
+      "name": "app.compiler",
+      "type": "com.clover.appconfig.configuration.AppProperties$Compiler",
+      "sourceType": "com.clover.appconfig.configuration.AppProperties"
+    },
+    {
+      "name": "pbteach",
+      "type": "com.clover.appconfig.configuration.PbConfig",
+      "sourceType": "com.clover.appconfig.configuration.PbConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.compiler.output-folder",
+      "type": "java.lang.String",
+      "sourceType": "com.clover.appconfig.configuration.AppProperties$Compiler"
+    },
+    {
+      "name": "app.compiler.timeout",
+      "type": "java.lang.String",
+      "sourceType": "com.clover.appconfig.configuration.AppProperties$Compiler"
+    },
+    {
+      "name": "app.error",
+      "type": "java.lang.String",
+      "sourceType": "com.clover.appconfig.configuration.AppProperties"
+    },
+    {
+      "name": "app.frame",
+      "type": "java.lang.String",
+      "sourceType": "com.clover.appconfig.configuration.AppProperties"
+    },
+    {
+      "name": "app.menus",
+      "type": "java.util.List<com.clover.appconfig.configuration.AppProperties$Menu>",
+      "sourceType": "com.clover.appconfig.configuration.AppProperties"
+    },
+    {
+      "name": "pbteach.name",
+      "type": "java.lang.String",
+      "sourceType": "com.clover.appconfig.configuration.PbConfig"
+    },
+    {
+      "name": "pbteach.servers",
+      "type": "com.clover.appconfig.configuration.PbConfig$Server[]",
+      "sourceType": "com.clover.appconfig.configuration.PbConfig"
+    },
+    {
+      "name": "pbteach.url",
+      "type": "java.lang.String",
+      "sourceType": "com.clover.appconfig.configuration.PbConfig"
+    },
+    {
+      "name": "pbteach.urls",
+      "type": "java.lang.String[]",
+      "sourceType": "com.clover.appconfig.configuration.PbConfig"
+    }
+  ],
+  "hints": []
+}
